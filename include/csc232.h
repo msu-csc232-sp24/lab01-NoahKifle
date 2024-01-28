@@ -89,11 +89,11 @@ double maxGrade(double array[5],int num_elements){
 
 
 // TODO: 3.2 Implement the specified function below
-int indexOfMaxGrade(double arr2[][NUM_COURSES], int num_rows, int num_columns){
+int indexOfMaxGrade(double arr2[][NUM_COURSES], int num_rows, int num_col){
         int num_rows_max = 0;
         int num_columns_max = 0;
         for (int i=0; i< num_rows; i++){
-            for (int j=0; j<num_columns; i++){
+            for (int j=0; j < num_col; i++){
                 if (arr2[num_rows_max][num_columns_max]< arr2[i][j]){
                     num_columns_max = i;
                     num_rows_max = j;
