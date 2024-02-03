@@ -35,3 +35,42 @@ test 2
 100% tests passed, 0 tests failed out of 2
 
 Total Test time (real) =   0.01 sec
+UpdateCTestConfiguration  from :/home/jdaehn/src/repos/msu/sp24/grading/scripts/lab01-NoahKifle/cmake-build-debug/DartConfiguration.tcl
+Parse Config file:/home/jdaehn/src/repos/msu/sp24/grading/scripts/lab01-NoahKifle/cmake-build-debug/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/home/jdaehn/src/repos/msu/sp24/grading/scripts/lab01-NoahKifle/cmake-build-debug/DartConfiguration.tcl
+Parse Config file:/home/jdaehn/src/repos/msu/sp24/grading/scripts/lab01-NoahKifle/cmake-build-debug/DartConfiguration.tcl
+Test project /home/jdaehn/src/repos/msu/sp24/grading/scripts/lab01-NoahKifle/cmake-build-debug
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: tests_NOT_BUILT-b12d07c
+Could not find executable tests_NOT_BUILT-b12d07c
+Looked in the following places:
+tests_NOT_BUILT-b12d07c
+tests_NOT_BUILT-b12d07c
+Release/tests_NOT_BUILT-b12d07c
+Release/tests_NOT_BUILT-b12d07c
+Debug/tests_NOT_BUILT-b12d07c
+Debug/tests_NOT_BUILT-b12d07c
+MinSizeRel/tests_NOT_BUILT-b12d07c
+MinSizeRel/tests_NOT_BUILT-b12d07c
+RelWithDebInfo/tests_NOT_BUILT-b12d07c
+RelWithDebInfo/tests_NOT_BUILT-b12d07c
+Deployment/tests_NOT_BUILT-b12d07c
+Deployment/tests_NOT_BUILT-b12d07c
+Development/tests_NOT_BUILT-b12d07c
+Development/tests_NOT_BUILT-b12d07c
+
+1: Test command: 
+1/1 Test #1: tests_NOT_BUILT-b12d07c ..........***Not Run   0.00 sec
+
+0% tests passed, 1 tests failed out of 1
+
+Total Test time (real) =   0.15 sec
+
+The following tests FAILED:
+	  1 - tests_NOT_BUILT-b12d07c (Not Run)
